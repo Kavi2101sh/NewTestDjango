@@ -14,7 +14,7 @@ def add_topic():
 	t.save()
 	return t
 
-def populate(N=5):
+def populate(N=6):
 	for entry in range(N):
 		top = add_topic()
 		fake_url = fakegen.url()
